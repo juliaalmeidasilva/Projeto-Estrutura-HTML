@@ -1,0 +1,72 @@
+body{
+    background-color: #ebe2bf;
+}
+#barraNavegação{
+    background-color: rgb(129, 100, 82);
+}
+h1{ 
+    font-family: Cambria, Cochin, Georgia;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+p{ /*mexe na fonte e muda as tags P*/
+    font-family: 'Times', Times New Roman, serif;
+    font-size: 12;
+    color:black;
+}
+hr{
+    /* linha sólida preta com 1 pixel de largura*/
+    border: lpx solid;
+    border-color: #808080;
+    width: 250px;
+}
+table{
+    border: 2px solid;
+}
+tr,td{
+    border: 1px solid;
+    width: 200px;
+    text-align: center;
+}
+#cabecalho{
+    background-color: #9e8c64;
+    font-weight: bolder;
+}
+/*tamanho da imagem*/
+img{
+    width: 30%;
+    height: 30%;
+}
+  /*tamanho do video*/
+video{
+    width: 30%;
+    height: 30%;
+}
+.menu{
+    display:inline-block;
+}
+.menu a{
+    /*cria uma caixa para cada item do menu*/
+    display:inline-block;
+    /*cor da letra*/
+    color:#c5c0b4;
+    /*alinhamento do texto no bloco*/
+    text-align: center;
+    /*espaço do texto para borda superior e inferior*/
+    padding: 15px 15px;
+    /*text-decoration:none; tira o traçado do limk*/
+    width: auto; /*largura do bloco*/
+}
+li a:hover{
+    background-color:rgb(54, 39, 20);
+    color:aliceblue
+}
+ 
+
+
+/*se colocar um "hover" depois de video, ele aumenta quando o cursor passar por ele*/
+/*body:active{
+    background-color: black;
+}*/
+
